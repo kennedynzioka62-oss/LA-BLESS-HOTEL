@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#143c32">
+	<meta name="description" content="Discover LA BLESS HOTEL, a considered Nairobi retreat with beautifully appointed rooms, warm hospitality and memorable dining.">
+	<title>LA BLESS HOTEL | A Nairobi Stay, Beautifully Considered</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<script src="Script.js" defer></script>
+</head>
+<body>
+	<header class="site-header" id="top">
+		<a class="brand" href="#top" aria-label="LA BLESS HOTEL home">
+			<span class="brand-mark" aria-hidden="true">LB</span>
+			<span class="brand-name">LA BLESS <small>HOTEL · NAIROBI</small></span>
+		</a>
+		<button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-nav">
+			<span></span><span></span>
+		</button>
+		<nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+			<a href="#about">Our story</a>
+			<a href="#rooms">Rooms</a>
+			<a href="#experience">Experiences</a>
+			<a href="#gallery">Gallery</a>
+			<a href="#contact">Contact</a>
+			<a class="nav-book" href="#booking">Book your stay <span aria-hidden="true">↗</span></a>
+		</nav>
+	</header>
+
+	<main>
+		<section class="hero" aria-labelledby="hero-title">
+			<div class="hero-image"></div>
+			<div class="hero-shade"></div>
+			<div class="hero-content">
+				<p class="eyebrow light-eyebrow"><span></span> A BOUTIQUE NAIROBI RETREAT</p>
+				<h1 id="hero-title">Find your<br><em>own kind</em> of calm.</h1>
+				<p class="hero-copy">Thoughtful stays, generous hospitality, and the best of Nairobi just beyond your door.</p>
+				<a class="button button-brass" href="#rooms">Explore our rooms <span aria-hidden="true">↗</span></a>
+			</div>
+			<div class="hero-note"><span class="note-rule"></span><span>RIVERSIDE<br> NAIROBI, KENYA</span></div>
+			<a class="scroll-cue" href="#about" aria-label="Scroll to discover"><span></span> SCROLL TO DISCOVER</a>
+			<div class="hero-index"><span>01</span> — 04</div>
+		</section>
+
+		<section class="booking-bar" aria-label="Check availability">
+			<div class="booking-intro"><span class="booking-spark">✳</span><span>Make room<br>for something good.</span></div>
+			<form class="availability-form" id="availability-form">
+				<label>CHECK IN<input type="date" id="quick-checkin" aria-label="Check-in date" required></label>
+				<label>CHECK OUT<input type="date" id="quick-checkout" aria-label="Check-out date" required></label>
+				<label>GUESTS<select id="quick-guests" aria-label="Number of guests"><option value="1">1 guest</option><option value="2" selected>2 guests</option><option value="3">3 guests</option><option value="4">4 guests</option></select></label>
+				<button class="button button-green" type="submit">Check availability <span aria-hidden="true">→</span></button>
+			</form>
+		</section>
+
+		<section class="about section-pad" id="about">
+			<div class="about-label"><span class="eyebrow">A LITTLE MORE YOU</span><span class="vertical-index">01 / THE HOTEL</span></div>
+			<div class="about-main">
+				<h2>A softer landing<br>in the <em>city that moves.</em></h2>
+				<div class="about-copy-grid">
+					<p class="about-lead">Nairobi has a rhythm all its own. At LA BLESS, we give you the space to find yours.</p>
+					<div class="about-description"><p>Set in Riverside, our intimate hotel brings considered design, sincere service and a little breathing room together. Come for a night or stay awhile; you’ll feel at home from the moment you arrive.</p><a class="text-link" href="#experience">Get to know us <span aria-hidden="true">↗</span></a></div>
+				</div>
+				<div class="stat-row"><div><strong>32</strong><span>thoughtful rooms</span></div><div><strong>5<span class="stat-plus">★</span></strong><span>personal service</span></div><div><strong>2014</strong><span>welcoming Nairobi</span></div></div>
+			</div>
+			<figure class="about-photo"><img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1000&q=85" alt="Warm, thoughtfully designed hotel lounge with contemporary furnishings" loading="lazy"><figcaption>THE ART OF FEELING AT EASE</figcaption></figure>
+		</section>
+
+		<section class="rooms section-pad" id="rooms">
+			<div class="section-heading">
+				<div><p class="eyebrow">YOUR PLACE IN NAIROBI</p><h2>Stay a little <em>better.</em></h2></div>
+				<p>Every room is a quiet invitation to settle in, slow down and make yourself at home.</p>
+			</div>
+			<div class="room-grid">
+				<article class="room-card">
+					<a class="room-image" href="#booking" data-room-select="Classic Room"><img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1000&q=85" alt="Elegant classic hotel room with a king bed" loading="lazy"><span class="room-tag">A BEAUTIFUL BEGINNING</span></a>
+					<div class="room-info"><div><span class="room-size">28 SQM · CITY VIEW</span><h3>Classic Room</h3></div><p class="room-price"><strong>KSh 18,500</strong><span>/ night</span></p></div>
+					<p class="room-desc">A calm, considered space with everything you need and nothing you don’t.</p>
+					<div class="room-features"><span>King bed</span><span>Rain shower</span><span>Wi-Fi</span></div>
+					<a class="room-link" href="#booking" data-room-select="Classic Room">Discover this room <span aria-hidden="true">↗</span></a>
+				</article>
+				<article class="room-card">
+					<a class="room-image" href="#booking" data-room-select="Deluxe Room"><img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1000&q=85" alt="Spacious deluxe guest room with natural textures" loading="lazy"><span class="room-tag">A LITTLE MORE ROOM</span></a>
+					<div class="room-info"><div><span class="room-size">38 SQM · GARDEN VIEW</span><h3>Deluxe Room</h3></div><p class="room-price"><strong>KSh 24,500</strong><span>/ night</span></p></div>
+					<p class="room-desc">More room to unwind, with a generous lounge nook and morning light.</p>
+					<div class="room-features"><span>King bed</span><span>Lounge nook</span><span>Minibar</span></div>
+					<a class="room-link" href="#booking" data-room-select="Deluxe Room">Discover this room <span aria-hidden="true">↗</span></a>
+				</article>
+				<article class="room-card">
+					<a class="room-image" href="#booking" data-room-select="Bless Suite"><img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1000&q=85" alt="Serene luxury suite with a separate sitting area" loading="lazy"><span class="room-tag">ROOM TO BREATHE</span></a>
+					<div class="room-info"><div><span class="room-size">56 SQM · PANORAMIC VIEW</span><h3>Bless Suite</h3></div><p class="room-price"><strong>KSh 39,000</strong><span>/ night</span></p></div>
+					<p class="room-desc">A private living room, a deep-soak bath and space to make the stay yours.</p>
+					<div class="room-features"><span>Separate lounge</span><span>Soaking tub</span><span>Breakfast</span></div>
+					<a class="room-link" href="#booking" data-room-select="Bless Suite">Discover this room <span aria-hidden="true">↗</span></a>
+				</article>
+			</div>
+			<p class="price-note">Rates shown are per room, per night. Taxes and availability confirmed with our reservations team.</p>
+		</section>
+
+		<section class="experience section-pad" id="experience">
+			<div class="experience-image"><img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1400&q=85" alt="An inviting hotel pool surrounded by leafy tropical gardens" loading="lazy"><span class="image-caption">A MOMENT BETWEEN PLANS</span></div>
+			<div class="experience-content"><p class="eyebrow light-eyebrow"><span></span> THE GOOD THINGS, INCLUDED</p><h2>Make time<br>for <em>yourself.</em></h2><p class="experience-intro">Whether you’re here to reset or get things done, the little details make all the difference.</p>
+				<div class="amenities">
+					<div class="amenity"><span class="amenity-icon" aria-hidden="true">✳</span><div><h3>Take a dip</h3><p>Our courtyard pool is your own little pause button.</p></div></div>
+					<div class="amenity"><span class="amenity-icon" aria-hidden="true">⌁</span><div><h3>Stay connected</h3><p>Complimentary high-speed Wi-Fi, wherever you need it.</p></div></div>
+					<div class="amenity"><span class="amenity-icon" aria-hidden="true">◒</span><div><h3>Move at your pace</h3><p>A well-equipped gym, open every day from 6am.</p></div></div>
+					<div class="amenity"><span class="amenity-icon" aria-hidden="true">↗</span><div><h3>Let us take you</h3><p>Airport transfers and city rides, arranged with care.</p></div></div>
+				</div>
+				<a class="text-link text-link-light" href="#contact">Ask us about your stay <span aria-hidden="true">↗</span></a>
+			</div>
+		</section>
+
+		<section class="dining section-pad">
+			<div class="dining-copy"><p class="eyebrow">GATHER AROUND THE TABLE</p><h2>Good food.<br><em>Good company.</em></h2><p>At <strong>ORÍ</strong>, Nairobi ingredients meet the flavours we grew up with and the ones we’re still discovering. Come down for a long breakfast, a working lunch or one more for the road.</p><div class="dining-hours"><span>BREAKFAST DAILY</span><strong>6:30am – 10:30am</strong><span>ALL-DAY DINING</span><strong>12pm – 10pm</strong></div><a class="button button-green" href="#contact">A table at ORÍ <span aria-hidden="true">↗</span></a></div>
+			<div class="dining-visual"><img class="dining-main-image" src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=85" alt="A beautifully plated seasonal dish at ORÍ restaurant" loading="lazy"><img class="dining-inset-image" src="https://images.unsplash.com/photo-1515003197210-e0cd7184f8b5?auto=format&fit=crop&w=700&q=85" alt="Fresh ingredients prepared for a vibrant meal" loading="lazy"><span class="dining-stamp">MADE WITH<br>LOCAL LOVE</span></div>
+		</section>
+
+		<section class="gallery section-pad" id="gallery">
+			<div class="section-heading gallery-heading"><div><p class="eyebrow">A FEELING, IN PICTURES</p><h2>A glimpse of <em>LA BLESS.</em></h2></div><p>Small moments, thoughtful spaces and a warmer way to stay.</p></div>
+			<div class="gallery-grid">
+				<button class="gallery-item gallery-large" type="button" data-gallery-src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1800&q=90" aria-label="View hotel pool and exterior"><img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85" alt="Hotel courtyard pool framed by tropical greenery" loading="lazy"><span>THE COURTYARD</span></button>
+				<button class="gallery-item" type="button" data-gallery-src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1800&q=90" aria-label="View guest room"><img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=900&q=85" alt="Soft light across a beautifully made guest room" loading="lazy"><span>ROOM TO REST</span></button>
+				<button class="gallery-item" type="button" data-gallery-src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1800&q=90" aria-label="View restaurant dining"><img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=85" alt="Seasonal dinner served at the restaurant" loading="lazy"><span>AT ORÍ</span></button>
+				<button class="gallery-item" type="button" data-gallery-src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1800&q=90" aria-label="View hotel lounge"><img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=85" alt="A quiet corner in the hotel lounge" loading="lazy"><span>TAKE A MOMENT</span></button>
+				<button class="gallery-item" type="button" data-gallery-src="https://images.unsplash.com/photo-1515003197210-e0cd7184f8b5?auto=format&fit=crop&w=1800&q=90" aria-label="View fresh restaurant food"><img src="https://images.unsplash.com/photo-1515003197210-e0cd7184f8b5?auto=format&fit=crop&w=900&q=85" alt="A colourful table of freshly prepared food" loading="lazy"><span>FRESH FROM THE KITCHEN</span></button>
+			</div>
+		</section>
+
+		<section class="testimonials section-pad" aria-labelledby="reviews-title">
+			<div class="review-mark" aria-hidden="true">“</div><p class="eyebrow">KIND WORDS, KEPT CLOSE</p><h2 id="reviews-title">A stay that <em>stays with you.</em></h2>
+			<div class="review-slider" aria-live="polite"><div class="review-stars" aria-label="5 out of 5 stars">★★★★★</div><blockquote id="review-quote">“The rare hotel that makes a busy trip feel like a proper break. Every detail felt personal, and the team remembered my coffee order by day two.”</blockquote><p class="review-author" id="review-author">Tomi A. <span>· Mombasa, Kenya</span></p></div>
+			<div class="review-controls"><button type="button" class="review-arrow" id="review-prev" aria-label="Previous review">←</button><span id="review-count">01 <i>/</i> 03</span><button type="button" class="review-arrow" id="review-next" aria-label="Next review">→</button></div>
+		</section>
+
+		<section class="booking-section section-pad" id="booking">
+			<div class="booking-copy"><p class="eyebrow light-eyebrow"><span></span> YOUR NAIROBI STORY STARTS HERE</p><h2>Come in.<br><em>Stay awhile.</em></h2><p>Tell us what you have in mind. Our reservations team will be in touch to make it feel just right.</p><div class="booking-assurance"><span aria-hidden="true">✳</span> No payment needed to enquire</div></div>
+			<form class="reservation-form" id="reservation-form" novalidate>
+				<div class="form-heading"><span>01 — YOUR DETAILS</span><span>ALL FIELDS MARKED * REQUIRED</span></div>
+				<div class="form-grid"><label class="form-field">Full name *<input name="name" type="text" autocomplete="name" placeholder="Your name" required></label><label class="form-field">Email address *<input name="email" type="email" autocomplete="email" placeholder="you@example.com" required></label><label class="form-field">Phone number<input name="phone" type="tel" autocomplete="tel" placeholder="+234"></label><label class="form-field">Room type *<select name="room" required><option value="">Choose a room</option><option>Classic Room</option><option>Deluxe Room</option><option>Bless Suite</option></select></label><label class="form-field">Check in *<input name="checkin" type="date" required></label><label class="form-field">Check out *<input name="checkout" type="date" required></label><label class="form-field">Guests<select name="guests"><option>1 guest</option><option selected>2 guests</option><option>3 guests</option><option>4 guests</option></select></label><label class="form-field">Special requests<input name="requests" type="text" placeholder="Anything we should know?"></label></div>
+				<div class="form-submit-row"><button class="button button-brass" type="submit">Send an enquiry <span aria-hidden="true">↗</span></button><p id="form-message" class="form-message" role="status" aria-live="polite">We’ll be in touch within one business day.</p></div>
+			</form>
+		</section>
+
+		<section class="contact section-pad" id="contact">
+			<div class="contact-heading"><p class="eyebrow">COME FIND US</p><h2>We’re right where<br><em>you need to be.</em></h2></div>
+			<div class="contact-details"><div><span class="contact-label">FIND US</span><p>Riverside Drive<br>Westlands, Nairobi, Kenya</p></div><div><span class="contact-label">SAY HELLO</span><p><a href="tel:+254201234567">+254 20 123 4567</a><br><a href="mailto:stay@lablesshotel.com">stay@lablesshotel.com</a></p></div><div><span class="contact-label">HERE FOR YOU</span><p>Reservations, every day<br>8am – 10pm EAT</p></div><div class="contact-social"><span class="contact-label">FOLLOW ALONG</span><p><a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram ↗</a><a href="https://www.facebook.com/" target="_blank" rel="noreferrer">Facebook ↗</a></p></div></div>
+			<a class="map-placeholder" href="https://maps.google.com/?q=Riverside+Drive+Nairobi+Kenya" target="_blank" rel="noreferrer" aria-label="Open a map of Riverside, Nairobi"><span class="map-lines"></span><span class="map-pin">LB</span><span class="map-caption">RIVERSIDE, NAIROBI <i>↗</i></span></a>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<div class="footer-top"><a class="brand brand-footer" href="#top" aria-label="LA BLESS HOTEL home"><span class="brand-mark" aria-hidden="true">LB</span><span class="brand-name">LA BLESS <small>HOTEL · NAIROBI</small></span></a><p>A little more you.<br>A little more Nairobi.</p><a class="back-top" href="#top">Back to the top <span aria-hidden="true">↑</span></a></div>
+		<div class="footer-bottom"><span>© <span id="current-year">2026</span> LA BLESS HOTEL. ALL RIGHTS RESERVED.</span><div><a href="#about">OUR STORY</a><a href="#rooms">ROOMS</a><a href="#contact">CONTACT</a></div><span>MADE WITH CARE IN NAIROBI</span></div>
+	</footer>
+
+	<dialog class="lightbox" id="lightbox" aria-label="Gallery image"><button class="lightbox-close" type="button" aria-label="Close image">×</button><img src="" alt=""></dialog>
+</body>
+</html>
